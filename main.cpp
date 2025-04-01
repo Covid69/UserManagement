@@ -1,5 +1,5 @@
-#include "user.h"
-#include "color.h"
+#include "user/user.h"
+#include "color/color.h"
 #include <limits>
 
 
@@ -25,6 +25,7 @@ int main(){
                     action = 0; // Reset action to allow for another action
                     break;
                 }
+                break;
             case 1: {
                 // Create user
                 {
